@@ -1,0 +1,487 @@
+@font-face {
+	font-family: 'myFirstFont';
+	src: url('Open_Sans/OpenSans-Regular.ttf');
+}
+.fixedWidth {
+	text-align: center !important;
+	/*width: 1024px;*/
+	/*margin-left: auto;*/
+}
+.body {
+	background: url('Images/FirstPageBlackBar.png'), url('Images/FirstPageDevice.png'), url('Images/FirstPageBackground.jpg');
+	background-size: 100% 10%, 50% 90%, 100% 60%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: top, top 5% right 15%, top;
+	background-attachment: scroll, scroll, fixed;
+}
+.topmar {
+	margin-top: 7%;
+	background: none;
+}
+#image {
+	font-family: 'myFirstFont';
+	margin-top: 0%;
+	font-size: 42.5pt;
+	margin-left: -2%;
+	position: relative;
+	width: 60%;
+	line-height: 240%;
+	text-align: left;
+	background: url('Images/FirstPageWhiteBar.png');
+	/*background-repeat: repeat-x;*/
+}
+#logoo {
+	position: absolute;
+	width: 40%;
+	height: 80%;
+	margin-top: 0%;
+	margin-left: 1%;
+}
+#para {
+	font-family: 'myFirstFont';
+	position: absolute;
+	margin-top: -12%;
+	margin-left: 3.5%;
+	font-size: 20px;
+	text-align: left;
+	left: 0%;
+	color: black;
+}
+
+#para1 {
+	font-family: 'myFirstFont';
+	position: absolute;
+	margin-top: -12%;
+	margin-left: 3.5%;
+	font-size: 20px;
+	text-align: left;
+	left: 0%;
+	color: black;
+}
+.links {
+	float: right;
+	margin-top: .5%;
+	margin-right: 3%;
+	color: white;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 50%;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	visibility: hidden;
+	opacity: 0;
+}
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+.popup {
+	margin: 70px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	width: 30%;
+	position: relative;
+	transition: all 1s ease-in-out;
+}
+#password {
+	margin-top: 2%;
+}
+.popup h2 {
+	margin-top: 0;
+	color: #333;
+	font-family: 'myFirstFont';
+}
+.popup .close {
+	font-family: 'myFirstFont';
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	transition: all 1s;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+.popup .close:hover {
+	color: #06D85F;
+}
+.popup .content {
+	max-height: 30%;
+	overflow: auto;
+}
+#button {
+	float: right;
+	margin-top: 5%;
+	background-color: green;
+}
+#para2 {
+	font-family: 'myFirstFont';
+	text-align: left;
+	margin-top: 5%;
+	font-size: 16px;
+	margin-left: -4.5%;
+	margin-right: 10%;
+	width: 85%;
+}
+#readmore {
+	width: 15%;
+	height: 8%;
+	margin-left: 10%;
+}
+@media screen and (max-width:700px) {
+	.box {
+		width: 70%;
+	}
+	.popup {
+		width: 40%;
+	}
+}
+@media screen and (max-width:768px) {
+	#para2 {
+		font-size: 120%;
+	}
+}
+@media screen and (max-width:568px) {
+	#para2 {
+		font-size: 90%;
+	}
+}
+
+/*thisis.css*/
+.flip:hover {
+	transform: scalex(-1);
+	filter: fliph;
+}
+.margin {
+	margin-top: 0%;
+}
+.firstp {
+	padding: 0%;
+}
+#oneone {
+	font-family: 'myFirstFont';
+	position: relative;
+	font-size: 48.5pt;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+h1 {
+	font-family: 'myFirstFont';
+	font-size: 48.5pt;
+	margin-left: 25%;
+}
+.image1 {
+	margin-left: -5px;
+}
+.image2 {
+	margin-left: -5px;
+}
+.image3 {
+	margin-left: -5px;
+}
+.image4 {
+	margin-left: -5px;
+}
+.h2-head1 {
+	font-family: 'myFirstFont';
+	margin-left: 4%;
+	margin-top: -5%;
+	text-align: center;
+	font-size: 15pt;
+	color: black;
+}
+.head-text1 {
+	font-family: 'myFirstFont';
+	margin-left: 15%;
+	width: 70%;
+	font-size: 14px;
+}
+.h2-head2 {
+	margin-left: 4%;
+	margin-top: -5%;
+	text-align: center;
+	font-size: 15pt;
+	color: black;
+}
+.head-text2 {
+	margin-left: 15%;
+	width: 75%;
+	font-size: 14px;
+}
+.h2-head3 {
+	margin-left: -1%;
+	margin-top: -20%;
+	text-align: center;
+	font-size: 15pt;
+	color: black;
+}
+.head-text3 {
+	margin-left: 15%;
+	width: 73%;
+	font-size: 14px;
+}
+.h2-head4 {
+	margin-left: 4%;
+	margin-top: -80px;
+	text-align: center;
+	font-size: 15pt;
+	color: black;
+}
+.head-text4 {
+	margin-left: 22%;
+	width: 60%;
+	font-size: 14px;
+}
+#logo {
+	width: 40%;
+	height: 140%;
+	margin: 0%;
+	left: 10%;
+	margin-top: -5%;
+}
+p {
+	text-align: center;
+	margin-top: 0%;
+	font-size: 12pt;
+	padding: 0% 10%;
+}
+img {
+	margin-left: 30%;
+	width: 40%;
+}
+.mar {
+	margin-top: 0%;
+}
+.access {
+	margin-top: 10%;
+}
+.flip {
+	transition-duration: 0.6s;
+	transition-property: transform;
+}
+.text-center-para {
+	width: 85%;
+	margin-left: 12%;
+	font-size: 15px;
+}
+
+/*workcss.css*/
+.work {
+	background: url('Images/ThirdPageTopBackground.png');
+	background-repeat: no-repeat;
+	background-size: 100% 15%;
+	background-position: top;
+}
+.space {
+	margin-top: 45%;
+}
+h1 {
+	margin-top: -40%;
+	margin-left: -20%;
+	position: absolute;
+	text-align: right;
+	font-family: 'myFirstFont';
+	font-size: 42px;
+	color: black;
+	padding: 0 10%;
+	width: 75%;
+	line-height: 120%;
+	background: url('Images/ThirdPageWhiteBar.png');
+}
+.workflow {
+	width: 75%;
+	height: 100%;
+	margin-top: -50%;
+	margin-left: 15%;
+}
+.working1 {
+	width: 100%;
+	margin-top: 0%;
+	margin-left: 10%;
+}
+.working2 {
+	width: 100%;
+	margin-top: 0%;
+	margin-left: 0%;
+}
+.working3 {
+	width: 100%;
+	margin-top: 0%;
+	margin-left: -5%;
+}
+
+/*
+.obj1{
+
+		margin-top:-10%;
+}*/
+.space-below {
+	margin-top: 5%;
+}
+
+/*rotatecss.css*/
+.rotate {
+	background: url('Images/FourthPageHeader.png'), url('Images/FourthPageBackgroundImage.png');
+	background-repeat: no-repeat, no-repeat;
+	background-size: 100% 15%, 100% 100%;
+	background-position: top -20%, center center;
+}
+h3 {
+	margin-top: 2%;
+	margin-left: -10%;
+	position: absolute;
+	text-align: right;
+	font-family: 'myFirstFont';
+	font-weight: normal;
+	font-size: 35px;
+	color: black;
+	padding: 0 10%;
+	width: 70%;
+	line-height: 160%;
+	background: url('Images/FourthPageWhiteBar.png');
+}
+.obj {
+	margin-top: 25%;
+}
+#one {
+	width: 20%;
+	margin-top: -20%;
+	margin-left: 20%;
+	float: left;
+	transition-duration: 0.6s;
+	transition-property: transform;
+}
+#onee {
+	width: 20%;
+	height: 30%;
+	margin-top: 0%;
+	margin-left: 20%;
+	float: left;
+	transition-duration: 0.6s;
+	transition-property: transform;
+}
+#two {
+	width: 20%;
+	margin-top: -20%;
+	margin-left: 10%;
+	float: left;
+	transition-duration: 0.6s;
+	transition-property: transform;
+}
+#twoo {
+	width: 20%;
+	height: 30%;
+	margin-top: 0%;
+	margin-left: 10%;
+	float: left;
+	transition-duration: 0.6s;
+	transition-property: transform;
+}
+#one:hover, #two:hover, #onee:hover, #twoo:hover {
+	transform: scalex(-1);
+	filter: fliph;
+}
+#three {
+	vertical-align: middle;
+}
+#text1 {
+	font-family: 'myFirstFont';
+	margin-top: -17%;
+	font-size: 18pt;
+	text-align: left;
+	margin-left: 45%;
+	color: white;
+	font-weight: normal;
+}
+#text11 {
+	font-family: 'myFirstFont';
+	font-size: 18pt;
+	text-align: left;
+	margin-top: 1%;
+	margin-left: 45%;
+	color: white;
+	font-weight: normal;
+}
+#paraa1 {
+	color: white;
+	font-size: 14pt;
+	font-family: 'myFirstFont';
+	margin-left: 35%;
+	text-align: left;
+	font-weight: normal;
+}
+#paraa2 {
+	font-family: 'myFirstFont';
+	color: white;
+	font-size: 14pt;
+	margin-left: 25%;
+	text-align: left;
+	font-weight: normal;
+}
+.TextWrap {
+	float: left;
+	margin: 0%;
+}
+#text2 {
+	font-family: 'myFirstFont';
+	margin-top: -15%;
+	font-size: 18pt;
+	text-align: left;
+	margin-left: 35%;
+	color: white;
+	font-weight: normal;
+}
+#text22 {
+	font-family: 'myFirstFont';
+	font-size: 18pt;
+	text-align: left;
+	margin-top: 1%;
+	margin-left: 35%;
+	color: white;
+	font-weight: normal;
+}
+.hh {
+	float: right;
+}
+
+/* contact us*/
+.form {
+	background: url('Images/FifthPageHeader.png'), url('Images/FourthPageBackgroundImage.png');
+	background-size: 100% 20%, 100% 100%;
+	background-repeat: no-repeat, no-repeat;
+	background-position: top -30%, center center;
+	background-attachment: scroll, fixed;
+}
+h5 {
+	margin-top: 0%;
+	margin-left: -20%;
+	position: absolute;
+	text-align: right;
+	font-family: 'myFirstFont';
+	font-size: 42px;
+	color: black;
+	padding: 0 10%;
+	width: 75%;
+	line-height: 120%;
+	background: url('Images/ContactPageWhiteBar.png');
+}
+.empty {
+	margin-top: 10%;
+}
+h6 {
+	margin-top: 5%;
+	font-size: 18px;
+	color: white;
+}
+footer {
+	margin-left: 30%;
+	float: right;
+}
+#teresol {
+	margin-left: 0%;
+	width: 10%;
+}

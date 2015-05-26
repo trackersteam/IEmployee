@@ -1,0 +1,292 @@
+@font-face {
+    font-family: 'myFirstFont';
+    src: url('Open_Sans/OpenSans-Regular.ttf');
+}
+
+* {
+    font-family: 'myFirstFont';
+}
+
+.fixedWidth {
+    text-align: center !important;
+    max-width: none !important;
+    width: 1024px;
+}
+
+.body {
+    background: url('Images/FirstPageBlackBar.png'), url('Images/FirstPageDevice.png'), url('Images/FirstPageBackground.jpg');
+    background-size: 100% 10%, 50% 90%, 100% 60%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top, top 5% right 15%, top;
+    background-attachment: scroll, scroll, fixed;
+}
+
+.firstPageWhiteBar {
+    margin-top: 50px;
+    font-size: 30pt;
+    width: 60%;
+    background: url('Images/FirstPageWhiteBar.png');
+}
+
+#logoo {
+    margin-top: -4%;
+    margin-left: 0%;
+}
+
+.para {
+    font-family: 'myFirstFont';
+    text-align: left;
+    color: black;
+    margin-left: 150px;
+}
+
+.para1 {
+    font-size: 38px;
+}
+
+.para2 {
+    font-size: 16px;
+}
+
+.para3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.links {
+    float: right;
+    margin-top: .5%;
+    margin-right: 3%;
+    color: white;
+}
+/*thisis.css*/
+
+.flip:hover {
+    transform: scalex(-1);
+    filter: fliph;
+}
+
+.margin {
+    margin-top: 0%;
+}
+
+.firstp {
+    padding: 0%;
+}
+
+.text-center-para {
+    /*width: 85%;
+	margin-left: 12%;*/
+    
+    font-size: 15px;
+}
+
+.secondPageLogo {
+    font-size: 48.5pt;
+    margin-top: 40px;
+}
+
+.imgSecondPageDevice {
+    width: 90%;
+}
+
+.image1 {
+	width: 30%;
+}
+
+.h2-head1 {
+    text-align: center;
+    font-size: 15pt;
+    color: black;
+}
+
+.head-text1 {
+    text-align: center;
+    font-size: 14px;
+}
+
+#logo {
+    width: 40%;
+    height: 140%;
+    margin: 0%;
+    left: 10%;
+    margin-top: -5%;
+}
+
+p {
+    text-align: center;
+    margin-top: 0%;
+    font-size: 12pt;
+    padding: 0% 10%;
+}
+
+.flip {
+    transition-duration: 0.6s;
+    transition-property: transform;
+}
+/*workcss.css*/
+
+.work {
+    background: url('Images/ThirdPageTopBackground.png');
+    background-repeat: no-repeat;
+    background-size: 100% 10%;
+    background-position: top;
+}
+
+.ThirdPageLogo {
+    margin-top: 50%;
+}
+
+h1 {
+    margin-top: -47%;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    width: 55%;
+    background: url('Images/ThirdPageWhiteBar.png');
+}
+
+.ThirdPageFlowDiagram {
+    margin-top: 15%;
+}
+
+.workflow {
+    width: 80%;
+    margin-top: -80%;
+    margin-left: 5%;
+}
+
+.workPara {
+    text-align: center;
+    width: 100%;
+    margin-top: -20%;
+    margin-bottom: 5%;
+}
+/*Andriod App*/
+.AndriodPageHeader{
+	   background: url('Images/FourthPageHeader.png');
+    background-repeat: no-repeat;
+    background-size: 100% 15%;
+    background-position: top;
+	
+}
+
+.AndriodAppPage{
+ margin-top: 15%;
+}
+.AndroidHeading{
+	margin-top: -14%;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    width: 55%;
+    background: url('Images/ThirdPageWhiteBar.png');
+}
+
+.mobileImages{
+margin-top: 40%;
+margin-bottom: 40%;
+	width:70%;
+}
+
+/*rotatecss.css*/
+
+.rotate {
+    background: url('Images/FourthPageHeader.png'), url('Images/FourthPageBackgroundImage.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 15%, 100% 100%;
+    background-position: top, center center;
+}
+
+.AdditionalFeatures {
+    margin-top: 9%;
+}
+
+h3 {
+    margin-top: -7%;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    width: 55%;
+    background: url('Images/FourthPageWhiteBar.png');
+}
+
+#twoo {
+    width: 20%;
+    height: 30%;
+    margin-top: 0%;
+    margin-left: 10%;
+    float: left;
+    transition-duration: 0.6s;
+    transition-property: transform;
+}
+
+#twoo:hover {
+    transform: scalex(-1);
+    filter: fliph;
+}
+
+#paraa2 {
+    font-family: 'myFirstFont';
+    color: white;
+    font-size: 12pt;
+    margin-left: 25%;
+    text-align: left;
+    font-weight: normal;
+}
+
+#text22 {
+    font-family: 'myFirstFont';
+    font-size: 18pt;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 35%;
+    color: white;
+    font-weight: normal;
+}
+/* contact us*/
+
+.form {
+    background: url('Images/FifthPageHeader.png'), url('Images/FourthPageBackgroundImage.png');
+    background-size: 100% 15%, 100% 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -30%, center center;
+    background-attachment: scroll, fixed;
+}
+
+h5 {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    width: 55%;
+    background: url('Images/ContactPageWhiteBar.png');
+}
+
+.empty {
+    margin-top: 10%;
+}
+
+h6 {
+    margin-top: 5%;
+    font-size: 18px;
+    color: white;
+}
+
+footer {
+    margin-left: 30%;
+    float: right;
+}
+
+#teresol {
+    margin-left: 0%;
+    width: 10%;
+}
+
+.facebookLogo {
+    float: left;
+    margin-left: -30%;
+    width: 5%;
+    height: 5%;
+}
